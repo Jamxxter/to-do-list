@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+.container-body{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#card-body{
+    background-color: lightblue;
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+.form{
+    justify-content: center;
+    gap: 1rem;
+}
+#input-box{
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+ol li span{
+    justify-content: space-between;
+    display: inline-block;
+}
+span:hover{
+    cursor: pointer;
+}
+#reset{
+    padding: 7px;
+    background-color: #0b5ed7;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid transparent;
+}
+.myBtn{
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
